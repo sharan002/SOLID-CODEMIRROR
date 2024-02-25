@@ -43,7 +43,7 @@ function App() {
       {stat.loading && <>Loading...</>}
       <div ref={ref} />
     </>
-  );
+  ); 
 }
 
 render(() => <App />, document.getElementById('root') as HTMLDivElement);
